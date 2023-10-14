@@ -7,29 +7,29 @@
 };
 
 
-/* Estilo geral para o corpo da página */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin-left: 20px;
 }
 
-/* Estilo para o cabeçalho */
+
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 100px;
     background-color: #333;
     color: #fff;
+    margin-bottom: 10px;
 }
 
-/* Estilo para o título no cabeçalho */
+
 header h1 {
     font-size: 24px;
 }
 
-/* Estilo para os subtítulos */
+
 h2 {
     font-size: 20px;
     color: #333;
@@ -64,3 +64,5 @@ h2:nth-of-type(2),
 h3:nth-of-type(2) {
     color: #28a745; /* Verde para seções de vida */
 }
+
+
