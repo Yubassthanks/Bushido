@@ -1,68 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-};
-
+}
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin-left: 20px;
+    background-color: #F5F5F5;
 }
 
 
-header {
+#bushido #gerenciamento #metodos {
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100px;
-    background-color: #333;
-    color: #fff;
-    margin-bottom: 10px;
+
 }
-
-
-header h1 {
-    font-size: 24px;
-}
-
 
 h2 {
-    font-size: 20px;
+    width: 100vw;
+    font-size: 24px;
     color: #333;
-    margin-top: 20px;
-    margin-left: 20px
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
 }
 
-/* Estilo para o texto dos parágrafos */
-p {
+p{
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 28px;
+
+}
+.container-img {
+    width: 40rem;
+    height: 40rem;
+}
+
+.container-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+
+
+.container-text h3 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.container-text p {
     font-size: 16px;
     line-height: 1.5;
     color: #666;
-    margin-left: 20px;
 }
 
-/* Estilo para os princípios do Bushidô */
-h3 {
-    font-size: 18px;
-    color: #333;
-    margin-top: 15px;
-    margin-left: 20px
+.carousel-control-prev-icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
 }
 
-
-/* Estilo para as seções de projeto e vida */
-h2:nth-of-type(1),
-h3:nth-of-type(1) {
-    color: #007bff; /* Azul para seções de projeto */
+.carousel-control-next-icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
 }
-
-h2:nth-of-type(2),
-h3:nth-of-type(2) {
-    color: #28a745; /* Verde para seções de vida */
-}
-
-
